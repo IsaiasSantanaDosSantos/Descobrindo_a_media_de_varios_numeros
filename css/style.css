@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: opx;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1314543/pexels-photo-1314543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    font-family: Helvetica, sans-serif;
+    
+}
+
+main {
+    background-color: white;
+    font-size: .80rem;
+    max-width: 50%;
+    min-width: 250px;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black;
+}
+
+main h1 {
+    text-align: center;
+}
+
+#incluir-nuns, #calcNuns {
+    color: white;
+    background-color: rgb(233, 101, 101);
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#incluir-nuns:hover, #calcNuns:hover {
+    box-shadow: 2px 2px 6px black;
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold; 
+    max-width: 50%;
+    min-width: 250px;
+    margin: auto;
+}
+
+footer p:hover {
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
+}
+
